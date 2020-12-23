@@ -1,0 +1,481 @@
+html { 
+    background: url(BackgroundSwirl.png) repeat; 
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: auto;
+    min-height: 100%;
+    width: 100%;
+ }
+.container {
+    width: 900px;
+    font-size: medium;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: #b2b99f;
+    background-color: #f2f7e6;
+    border-radius: 25px;
+}
+
+.header {
+    border-radius: 25px;
+    background-color: #0e2e2b;
+    color: #D0D6C1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 700px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.logo {
+    height: 40px;
+    width: 500px;
+    float: left;
+    font-size: 64px;
+    color: #FDF5E6;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.pizza {
+    filter: sepia(50%);
+    background-repeat: no-repeat;
+    float: right;
+    height: 375px;
+    border-radius: 50%;
+    margin: auto;
+    width: 375px;
+    text-align: center;
+    color:rgb(92, 102, 56);
+}
+
+.pizza:hover{
+    filter: sepia(0%);
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 375px;
+    width: 375px;
+     border-radius: 50%;
+     margin: auto;
+     display: block;
+}
+
+.about {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(92, 102, 56);
+    text-align: left;}
+    
+
+    .footer {
+        width: 900px;
+        height: 170px;
+        background-color: #0e2e2b;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+    
+    
+    .p2 { font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: 15px;}
+    
+    .centreleft {
+        width: 450px;
+        height: 75px;
+        float: left;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .centreright {
+        float: right;
+        width: 450px;
+        height: 50%;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        overflow: hidden;
+        display: block;
+    }
+    
+    .socialmedia {
+        display: block;
+        width: 400px;
+        height: 60%;
+        float: left;
+        list-style-type: none;
+        
+    }
+    .wordpress {
+        
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+        width: 80px;
+        height: 100%;
+        background-size: 45px;
+    }
+    
+    .wordpress img {width: 50px; height: 50px;}
+    
+    .instagram {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+        width: 80px;
+        height: 100%;
+        background-size: 45px;
+    }
+    
+    .instagram img {width: 50px; height: 50px;}
+    
+    .vimeo {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+        width: 80px;
+        height: 100%;
+        background-size: 45px;
+    }
+    .vimeo img {width: 50px; height: 50px;}
+    
+    .behance {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+        width: 80px;
+        height: 100%;
+        background-size: 45px;
+    }
+    .behance img {width: 50px; height: 50px;}
+    
+    .linkedin {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+        width: 80px;
+        height: 100%;
+        background-size: 45px;
+    }
+    
+    .linkedin img {width: 50px; height: 50px;}
+    
+    
+    .bottom {
+        clear: both;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        opacity: 50%;
+    }
+    
+    .centreleft {
+        line-height: 5;
+    }
+    
+    .contact, .copyright {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+    }
+    .mobile{ visibility: hidden;
+        height: 0px;
+    width: 0px;
+    padding: 0px;
+    font-size: 0px;}
+    .menu2, .orders2, .cocktails2, .offers2 {
+     visibility: hidden;width: 0;
+    height: 0;
+    font-size: 0px;
+    }
+    
+    .mobile img{ height: 0px;
+        width: 0px;
+        padding: 0px;
+        font-size: 0px;}
+        .menu2 img, .orders2 img, .cocktails2 img, .offers2 img {
+         visibility: hidden;width: 0;
+        height: 0;
+        opacity: 0%;}
+    
+    @media only screen and (max-width: 600px) {
+    
+        .container {margin:auto;
+        padding: 10px;
+        float: left;
+        background: url(BackgroundSwirl.png) repeat; }
+        
+        .html {width:auto; height: auto; margin: auto; display:auto;}
+    
+        .pizza {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        }
+    
+        .logo{ 
+            text-align: center;
+            width: 900px;
+            height: 100px;
+            font-size: 50px;
+            color: #0e2e2b;
+        }
+        .about {
+            text-align: center;
+            font-size: 30px;
+            float: none;
+            padding: 5px;
+            background-color: #f2f7e6;
+            border-radius: 10px;
+            font-style: normal;
+        }}
+
+.pornstar{width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    filter: blur(var(--value, 1rem)); --value:2px;
+    overflow: hidden;}
+    .pornstaroverlay {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        float: left;
+        margin: 20px;
+        opacity: 0;
+        transition: .5s ease;
+        overflow: hidden;}
+        .text { color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            visibility: hidden;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;}
+    .pornstar2 {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 20px;
+        float: left;
+        overflow: hidden;
+        background-color: #afbe8b;}
+
+.mojito{width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    filter: blur(var(--value, 1rem)); --value:2px;
+    overflow: hidden;}
+    .mojito2 {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 20px;
+        float: left;
+        overflow: hidden;
+        background-color: #2a8470;}
+
+.woowoo{width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    filter: blur(var(--value, 1rem)); --value:2px;
+    overflow: hidden;}
+    .woowoo2 {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 20px;
+        float: left;
+        overflow: hidden;
+        background-color: #9cddb8;}
+
+.oldfashioned{width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    filter: blur(var(--value, 1rem)); --value:2px;
+    overflow: hidden;}
+    .oldfashioned2 {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 20px;
+        float: left;
+        overflow: hidden;
+        background-color: #afbe8b;}
+
+.rainbow{width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    filter: blur(var(--value, 1rem)); --value:2px;
+    overflow: hidden;}
+    .rainbow2 {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 20px;
+        float: left;
+        overflow: hidden;
+        background-color: #2a8470;}
+
+.zombie{width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    filter: blur(var(--value, 1rem)); --value:2px;
+    overflow: hidden;}
+    .zombie2 {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 20px;
+        float: left;
+        overflow: hidden;
+        background-color: #9cddb8;}
+
+.pornstar img {width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        overflow: hidden;}
+            
+.mojito img {width: 400px;
+            height: 400px;
+            border-radius: 50%;}
+.woowoo img {width: 400px;
+            height: 400px;
+            border-radius: 50%;}
+.oldfashioned img {width: 400px;
+            height: 400px;
+            border-radius: 50%;}
+.rainbow img {width: 400px;
+            height: 400px;
+            border-radius: 50%;}
+.zombie img {width: 400px;
+            height: 400px;
+            border-radius: 50%;}
+
+.pornstar:hover {
+    filter: none;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    border: 3px;}
+.text:hover{
+    opacity: 100%;
+    visibility: visible;
+}
+.mojito:hover {
+    filter: none;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    border: 3px;}
+
+.woowoo:hover {
+    filter: none;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    border: 3px;}
+
+.oldfashioned:hover {
+    filter: none;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    border: 3px;}
+
+.rainbow:hover {
+    filter: none;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    border: 3px;}
+
+.zombie:hover {
+    filter: none;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    border: 3px;}
